@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+h3{
+    text-align: right;
+    margin-right: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    width: 500px;
+    font-size: 18px;
+    background-color: #4412ce;
+    color: white;
+  }
+
+.start-button{
+    text-align: center;
+    width: 100px;
+}
+
+.score{
+    text-align: center;
+}
+
+#main{
+      text-align: center;
+      font-family: Arial;
+      font-size: x-large;
+      font-weight: bold;
+}
+
+#choices{
+    text-align: center;
+    padding: 20px;
+}
